@@ -268,7 +268,7 @@ GROUP BY MONTH(issue_date), DATENAME(MONTH, issue_date)
 ORDER BY MONTH(issue_date)
 ```
 | Month_Number | Month_name | Total_Loan_Applications |Total_Funded_Amount | Total_Amount_Received |
-|----|-----|-----|----|----|----|
+|----|-----|-----|----|----|
 | 1	| January |	2332 | 25031650	| 27578836 |
 | 2	| February | 2279	|24647825	| 27717745 |
 | 3	| March	| 2627 | 28875700	| 32264400 |
