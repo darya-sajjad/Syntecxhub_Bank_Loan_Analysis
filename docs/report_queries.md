@@ -14,7 +14,7 @@ SELECT COUNT(id) AS Total_Applications FROM bank_loan
 
 - Month to Date Loan Applications
 ```
-SELECT COUNT(id) AS MTD_Total_Applic|----|-----|-----|----|----ations 
+SELECT COUNT(id) AS MTD_Total_Applications 
 FROM bank_loan
 WHERE MONTH(issue_date) = 12
 ```
@@ -267,10 +267,10 @@ FROM bank_loan
 GROUP BY MONTH(issue_date), DATENAME(MONTH, issue_date)
 ORDER BY MONTH(issue_date)
 ```
-| Month_Number | Month_name | Total_Loan_Applications |Total_Funded_Amount | Total_Funded_Amount | Total_Amount_Received |
+| Month_Number | Month_name | Total_Loan_Applications |Total_Funded_Amount | Total_Amount_Received |
 |----|-----|-----|----|----|----|
 | 1	| January |	2332 | 25031650	| 27578836 |
-| 2	| February | 2279	24647825	| 27717745 |
+| 2	| February | 2279	|24647825	| 27717745 |
 | 3	| March	| 2627 | 28875700	| 32264400 |
 | 4	| April |	2755 |	29800800 |	32495533 |
 | 5	| May |	2911 | 31738350	| 33750523 |
@@ -410,7 +410,7 @@ ORDER BY purpose
 |medical |	667	| 5533225 |	5851372 |
 |moving	| 559	| 3748125	| 3999899 |
 |other	| 3824	| 31155750	| 33289676 |
-|renewable_energy	| 94	845750 |	898931 |
+|renewable_energy	| 94	|845750 |	898931 |
 |small business	| 1776 |	24123100	| 23814817 |
 |vacation	| 352	| 1967950	| 2116738 |
 |wedding	| 928	| 9225800	| 10266856 |
@@ -433,6 +433,8 @@ ORDER BY home_ownership
 | OTHER	| 98 |	1044975 |	1025257 |
 | OWN	| 2838 |	29597675 |	31729129 |
 | RENT	| 18439	| 185768475	| 201823056 |
+
+---
 
 > **NOTE:** The analysis is not limited to these queries, various filters are applied on all the dashboards
 
