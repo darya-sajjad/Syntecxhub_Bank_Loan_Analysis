@@ -132,6 +132,13 @@ Monthly funded amount (rounded, in $M):
 
 ### 6.3 Home Ownership and Loan Term
 
+| Home Ownership | Funded Amount |
+| :--- | :---: | :---: |
+| **Mortgage**	| **$219.3M** |
+| Rent	| $185.8M |
+| Own	| $29.6M |
+| Other	| $1.0M |
+
 | Loan Term | Funded Amount | Share |
 | :--- | :---: | :---: |
 | **36 months** | $273M | 62.66% |
